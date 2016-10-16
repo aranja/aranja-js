@@ -1,0 +1,19 @@
+{
+  "name": "aranja-js",
+  "version": "1.0.0",
+  "description": "A collection of JS utilities used in various projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "babel index.js --out-dir build",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+  },
+  "author": "Aranja",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-flow": "^1.0.0",
+    "babel-preset-latest": "^6.16.0",
+    "flow-bin": "^0.33.0"
+  }
+}
