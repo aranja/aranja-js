@@ -4,7 +4,7 @@
   "description": "A collection of JS utilities used in various projects.",
   "main": "index.js",
   "scripts": {
-    "build": "babel index.js --out-dir build",
+    "build": "babel src -d build",
     "flow": "flow; test $? -eq 0 -o $? -eq 2",
     "lint": "eslint src/**/*.js",
     "test": "npm run flow && npm run lint"
